@@ -7,6 +7,8 @@ function getAllArtists(array){
 
 //Exercise 2: Get the songs of a certain artist
 function getSongsFromArtist(array, artist){
+return array.filter(song => song.artist === artist);
+}
     //Write your code here
 };
 
